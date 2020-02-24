@@ -1,0 +1,2 @@
+This python script will help you to find the  password of the provided username , if exists, and if there is nosql injection.
+Provide the username and the url to the login page and made some changes in the cript as mentioned in the script itself.
