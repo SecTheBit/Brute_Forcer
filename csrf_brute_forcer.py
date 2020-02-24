@@ -1,8 +1,8 @@
 import requests ,sys
 from lxml import html
 
-username=sys.argv[1]
-password=sys.argv[2]
+username_list=sys.argv[1]
+password_list=sys.argv[2]
 url_path=sys.argv[3]
 
 for usernames in username:
